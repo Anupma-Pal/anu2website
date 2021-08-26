@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doc</title>
+    <style>
+.navbar{
+   border-top-left-radius: 6px; 
+   border-top-right-radius: 6px; 
+   border-bottom-left-radius: 6px;
+   border-bottom-right-radius: 6px;
+   
+ }
+ .navbar ul{
+overflow: auto;
+ }
+ .navbar li{
+float: left;
+list-style: none; 
+padding: 20px 3px;
+margin: 15px;
+ }
+ a:hover{
+   color: rgb(23, 87, 198);
+   
+ }
+ .navbar li a{
+  text-decoration: none; 
+  color: whitesmoke;
+ }
+.anu-container{
+  background-image: url(data:image/jpeg;base64,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);
+background-size: 1600px ;
+  background-repeat: no-repeat;
+}
+label{
+  color: aquamarine;
+}
+.gender{
+  color:aquamarine;
+}
+.gen{
+  color:rgba(0, 225, 255, 0.767);
+}
+
+.member-container{
+  border: 4px solid blanchedalmond;
+  text-align: center;
+  width: 700px;
+  margin-left: 450px;
+  border-radius: 4px 4px 4px 4px;
+  background-color: rgba(15, 15, 15, 0.301);
+  box-shadow: 5px 5px 4px white;
+}
+.mime-container{
+  background-color: rgba(245, 245, 245, 0.815);
+}
+
+.cont{
+  display: flex;
+  flex-direction: row;
+  margin-left: 280px;
+}
+.bttn-container{
+  font-size: 50px;
+}
+.sub{
+  background: linear-gradient(to right, rgb(4, 252, 219), rgb(236, 128, 170));
+  font-size: 20px;
+  margin: 7px;
+}
+.sub:hover{
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(6, 231, 119), rgb(157, 128, 236));
+}
+.res{
+  background: linear-gradient(to right, rgb(4, 119, 252), rgb(245, 161, 231));
+  font-size: 20px ;
+}
+.res:hover{
+  cursor: pointer;
+  background: linear-gradient(to right, rgb(6, 231, 119), rgb(157, 128, 236));
+}
+.navbar li a:hover{
+    background-color: rgba(0, 187, 255, 0.686);
+   }
+ .option-container{
+
+ }  
+   </style>
+</head>
+<body class= "anu-container">
+    <header>
+               <nav class="navbar">
+              <ul>
+      <li><a href="index.html"> HOME</a></li>
+      <li><a href="digital.html">  COURSES</a></li>
+       <li><a href="form.html">FEEDBACK</a></li>
+       <br>
+              </ul>
+               </nav>
+      <br>
+  <form class="form"
+  action="mailto:anupmapal14@gmai.com" method="POST">
+  <div class="member-container">
+    <br>
+    <label>Your name:</label>
+    <input  class="mime-container" type="text" name="" value="">
+    <hr>
+    <label>Email:</label>
+    <input  class="mime-container" type="text" name="" value="">
+    <hr>
+    <div class="gender">
+     Gender: <span class="gen"> Male<input  class="mime-container" type="radio" name="myGender">Female<input  class="mime-container" type="radio" name="myGender">Others<input  class="mime-container" type="radio" name="myGender"></span>
+    </div>
+     <hr>
+    <label>
+      Your feedback:
+    </label>
+    <textarea class="mime-container" name="" id="" cols="30" rows="10"></textarea>
+    <hr>
+  
+        <label for="country">Country</label>
+      
+      <div class="option-container" style="width="200px">
+        <select>
+           <option class="mime-container" value="india">INDIA</option>
+          <option class="mime-container" value="australia">Australia</option>
+          <option class="mime-container" value="canada">Canada</option>
+          <option class="mime-container" value="usa">USA</option>
+        </select>
+      </div>
+     
+      <br>
+      <div class="cont" >
+      <div class="bttn-container">
+      <input class="sub" type="submit">
+      </div>
+      <div class="bttn-container">
+      <input class="res" type="reset">
+      </div>
+ </div>
+      </div>
+       </form>
+</body>
+</html>

@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #40514e;
+    font-family: 'Ubuntu', sans-serif;
+    
+  }
+  
+  h1 {
+    color: #66bfbf;
+    font-size: 5.62rem;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: 'Meriend',cursive;
+  }
+  
+  h2 {
+    color:#95dfdf;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
+  
+  h3 {
+    color: #15c8ce;
+    font-family: 'ubuntu', sans-serif;
+  }
+  p{
+    line-height: 2;
+  }
+  hr{
+    border: dotted #eaf6f6 6px;
+    border-bottom: none ;
+    width: 5%;
+    margin: 100px auto;
+  }
+  a{
+    color: #11999e;
+    font-family: 'ubuntu', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+  }
+  
+    
+  .top-container{
+     
+      position: relative;
+      padding-top: 100px;
+  }
+  
+  .middle-container {
+    margin: 100px 0;
+   
+  
+  }
+  .blend{
+    background-color: rgba(12, 12, 12, 0.597);
+  }
+  
+  .bottom-container{
+   background-color: rgba(0, 0, 0, 0.755);
+    padding: 50px 0 200px;
+    text-decoration-color: whitesmoke;
+  
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+    
+    
+  }
+  .contact-me{
+    width: 40%;
+    margin:  40px auto 60px;
+  }
+  .copyr{
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+    
+  }
+  .top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+    
+    
+  }
+  .skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: center;
+    line-height: 2;  
+   
+    
+    
+  }
+  .skill-images{
+   
+  }
+  
+  .Memes{
+    width: 30%;
+    float: right;
+    margin-right: 30px;
+    
+  }
+  .profile-img{
+    border-radius: 100%;
+    
+  }
+  .myButton {
+        background: #349add;
+    background-image: -webkit-linear-gradient(top, #3498db, #1173b0);
+    background-image: -moz-linear-gradient(top, #3498db, #1173b0);
+    background-image: -ms-linear-gradient(top, #3498db, #1173b0);
+    background-image: -o-linear-gradient(top, #3498db, #1173b0);
+    background-image: linear-gradient(to bottom, #3498db, #1173b0);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 35px;
+    padding: 9px 16px 10px 20px;
+    text-decoration: none;
+  }
+  .myButton:hover {
+      background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #1c99c7);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #1c99c7);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #1c99c7);
+    background-image: -o-linear-gradient(top, #3cb0fd, #1c99c7);
+    background-image: linear-gradient(to bottom, #3cb0fd, #1c99c7);
+    text-decoration: none;
+  }
+  .myButton:active {
+      
+  }
+  .footer-link{
+  text-decoration-color: rgb(187, 24, 24);
+  }
+  
+  .digi-container{
+   
+  }
+  
+  .overall-container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0cEX80inG6Iz_1ZB9cXjcjU0LGgc6rok6aA&usqp=CAU);
+    background-size: cover;
+    
+
+  }
+  .dim-container{
+  font-size: 30px;
+  font-style: unset;
+  }
+  a{
+   color : rgb(9, 17, 244);
+  }
+  .me-container{
+    font-style: lucida-handwriting;
+    font-size: 30px;
+    color: rgb(13, 13, 14);
+  background-image: url("https://media1.giphy.com/media/ieH1g7OY4cYEQICAdL/giphy.webp?cid=ecf05e47z3hhybzj3q9g26a55el7p06j5l5r86b6qfi43rj8&rid=giphy.webp&ct=s");
+  }
+  .she-container{
+    font-style: lucida-handwriting;
+    font-size: 30px;
+    color: rgb(226, 68, 11);
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROOvaDm0E8x1XP9klIfIyhp5Pmadtc-ms0hQ&usqp=CAU");
+  }
+  .but-container{
+  background-color: #e240d0;
+  font-size: 30px;
+  font-style: italic;
+  }
+    .anu-container{
+  background-color: #e4f9f5;
+  color: greenyellow;
+    }
+   .maahi-container{
+    background-color: #e240d0;
+    background-color: rgb(0, 195, 255);
+     }
+   .navbar{
+    border-color: white;
+     border-top-left-radius: 6px; 
+     border-top-right-radius: 6px; 
+     border-bottom-left-radius: 6px;
+     border-bottom-right-radius: 6px;
+     display: block;
+     margin: 0px:
+     position: sticky;
+     display: block;
+   }
+   .navbar ul{
+  overflow: auto;
+  position: sticky;
+  display: block;
+   }
+   .navbar li{
+  float: left;
+  list-style: none; 
+  padding: 20px 3px;
+  position: sticky;
+  display: block;
+   }
+   
+   .navbar li a:hover{
+    background-color: rgba(0, 187, 255, 0.686);
+   }
+   a:hover{
+     color: rgb(23, 87, 198);
+   }
+   .navbar li a{
+    text-decoration: none; 
+    color: whitesmoke;
+   }
+   
+   .search{
+     float: right;
+     padding: 18px 10px 0px 5px;
+     border-radius: 10px;
+     color: whitesmoke;
+   }
+   
+   .webpy-container{
+   display: inline;
+   }
+   .gravid-container{
+  display: inline;
+   }
+   .main-container{
+     background-image: url(https://images.unsplash.com/photo-1555392660-4f93688b1f21?ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTR8MTcwODI3Nnx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+     border: 1px solid black;
+     background-size: 1600px;
+   }
+   .footer-link{
+     color: rgb(215, 223, 228);
+   }
